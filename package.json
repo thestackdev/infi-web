@@ -37,7 +37,7 @@
     "@types/react": "18.2.13",
     "@types/react-dom": "18.2.6",
     "autoprefixer": "10.4.14",
-    "aws-cdk-lib": "2.79.1",
+    "aws-cdk-lib": "2.80.0",
     "class-variance-authority": "^0.6.0",
     "clsx": "^1.2.1",
     "constructs": "10.1.156",
