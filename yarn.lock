@@ -4953,9 +4953,9 @@ fast-json-stable-stringify@^2.0.0:
   integrity sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
 
 fast-jwt@^3.1.1:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/fast-jwt/-/fast-jwt-3.3.0.tgz#61a7d1afdd715f18267df2fb94077ad654fbb2c0"
-  integrity sha512-tN33BAxlfnMrStYTvHwnoCoTZj9e7sGWfWGg/Naluxe6I5IsF7J2UwEjCJvJ7YD6fyAUo0WWd+OrBIFAmfZPrw==
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/fast-jwt/-/fast-jwt-3.3.2.tgz#08812282cd9ca0d1f7060987d3e527f84e364f88"
+  integrity sha512-H+JYxaFy2LepiC1AQWM/2hzKlQOWaWUkEnu/yebhYu4+ameb3qG77WiRZ1Ct6YBk6d/ESsNguBfTT5+q0XMtKg==
   dependencies:
     "@lukeed/ms" "^2.0.1"
     asn1.js "^5.4.1"
