@@ -7,6 +7,7 @@ import {
 } from "@aws-sdk/client-s3";
 import db from "@/db";
 import { ads } from "@/db/schema";
+import { eq } from "drizzle-orm";
 
 const Bucket = process.env.AMPLIFY_BUCKET;
 const s3 = new S3Client({
@@ -64,5 +65,16 @@ export async function POST(request: NextRequest) {
 
   return NextResponse.json({
     message: "Uploaded successfully",
+  });
+}
+
+export async function DELETE(request: NextRequest) {
+  const searchParams = new URL(request.nextUrl).searchParams;
+  const id = searchParams.get("id") as string;
+
+  await db.delete(ads).where(eq(ads.id, id));
+
+  return NextResponse.json({
+    message: "Deleted successfully",
   });
 }
