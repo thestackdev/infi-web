@@ -78,3 +78,5 @@ export async function DELETE(request: NextRequest) {
     message: "Deleted successfully",
   });
 }
+
+export const dynamic = "force-dynamic";
